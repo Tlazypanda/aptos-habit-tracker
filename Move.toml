@@ -1,0 +1,16 @@
+[package]
+name = "habits-v1"
+version = "1.0.0"
+authors = []
+
+[addresses]
+deployer_address = '0xb4c500b5a0beba1a70f41a2479c86e7d611bfaa381403d00971cef13040fb3d3'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
